@@ -77,7 +77,6 @@ services:
     volumes:
       - ./hdfs/datanode:/hadoop/dfs/data
       - ./datasets:/tmp/datasets
-      - ./scrpits:/tmp/scrpits/
     env_file:
       - ./hadoop-hive.env
     environment:
