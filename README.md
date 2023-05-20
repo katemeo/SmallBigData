@@ -53,4 +53,4 @@
 
 Для выгрузки датасетов из ods в arhive
 
-    docker exec -it hive-server hive INSERT INTO archive.chess_games SELECT * FROM ods.chess_games;
+    docker exec -it hive-server hive -e "INSERT INTO archive.chess_games SELECT * FROM ods.chess_games";
