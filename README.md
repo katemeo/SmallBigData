@@ -1,4 +1,4 @@
-# Big Data 
+# Small Big Data 
 
 Этот репозиторий содержит **Dockerfile** от [apache-airflow](https://github.com/apache/incubator-airflow) для [Docker](https://www.docker.com/)'s [автоматической сборки](https://registry.hub.docker.com/u/puckel/docker-airflow/) опубликованной в общедоступном реестре [Docker Hub Registry](https://registry.hub.docker.com/).
 
